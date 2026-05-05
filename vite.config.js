@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-  base: '/mini-proyecto-w2/',
   build: {
     rollupOptions: {
       input: {
