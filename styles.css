@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme{
+    /* Colores del proyecto */
+ --color-fondo-oscuro:#0d1117;
+ --color-texto-principal:#ffffff;
+ --color-amarillo-destacado:#e3ff6a;
+ --color-verde-neon:#a4ff7a;
+ --color-azul-oscuro:#1e293b;
+ --color-gris-suave:#8892b0;
+
+ /* Imagenes de fondo con gradiente */
+ --background-image-grad-main:linear-gradient(135deg,#1e293b 0%,#0d1117 100%);
+ --background-image-grad-sec: radial-gradient(
+    circle at 50% 45%, 
+    rgba(227, 255, 106, 0.5) 0%, 
+    #1e293b 40%, 
+    #0d1117 100%);
+
+}
+
+img{
+    border:2px solid 
+}
