@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>mini-proyecto-w2</title>
     <link rel="stylesheet" href="./styles.css" />
     <link rel="icon" type="image/x-icon" href="./images/canvaLogoAcrobat.svg">
+    <script src="./scripts/scripts.js" defer></script>
+
   </head>
 
   <body class="bg-fondo-oscuro text-texto-principal">
     <header class="flex  flex-row justify-around items-center">
-      <img src="./images/logo.svg" alt="Logo" class="w-18.75"/>
+      <img  src="./images/logo.svg" alt="Logo" class="w-18.75"/>
       <nav>
         <ul class="flex gap-8">
           <li><a class="uppercase" href="./index.html">About me</a></li>
@@ -28,7 +29,7 @@
         <h1 class="text-4xl md:text-6xl font-bold">I'm <span class="text-amarillo-destacado">Rafael Lopez</span></h1>
         <h2 class="text-4xl md:text-6xl text-gray-300 mt-2">Frontend Developer</h2>
         <div class="relative w-full max-w-lg mt-8">
-          <img src="./images/me-4-bg.png" alt="My picture-Hero img" class="w-full h-auto object-contain mx-auto" />
+          <img id="hero-img" src="./images/me-1-bg.png" alt="My picture-Hero img" class="w-full h-auto object-contain mx-auto transition-opacity duration-1000" />
         </div>
         <button type="button" class="bg-amarillo-destacado text-black px-8 py-3 rounded-full font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-xl active:scale-95 shadow-lg shadow-amarillo-destacado/30">My Projects</button>
       </section>
