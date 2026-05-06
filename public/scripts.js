@@ -1,11 +1,11 @@
 const imagen = document.getElementById('hero-img');
 
 const images = [
-    './images/me-1-bg.png',
-    './images/me-2-bg.png',
-    './images/me-3-bg.png',
-    './images/me-4-bg.png',
-    './images/me-5-bg.png'
+    '/images/me-1-bg.png',
+    '/images/me-2-bg.png',
+    '/images/me-3-bg.png',
+    '/images/me-4-bg.png',
+    '/images/me-5-bg.png'
 ];
 
 let index=0;
