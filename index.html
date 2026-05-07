@@ -10,17 +10,49 @@
   </head>
 
   <body class="bg-fondo-oscuro text-texto-principal">
-    <a href="#" class="text-black bg-amber-100 fixed bottom-6 right-6 w-6 h-6 rounded-full  flex items-center justify-center text-2xl z-50 hover:scale-102 active:scale-90" >&UpArrow;</a>
-    <header class="px-1 max-w-7xl mx-auto flex flex-row justify-around items-center py-4 top-0 z-40">
-      <a href="#"><img src="./images/logo.svg" alt="Logo" class="w-16 hover:scale-102 active:scale-90" /></a>
+    <a
+      href="#"
+      class="text-black bg-amber-100 fixed bottom-6 right-6 w-6 h-6 rounded-full flex items-center justify-center text-2xl z-50 hover:scale-102 active:scale-90"
+      >&UpArrow;</a
+    >
+    <header
+      class="px-1 max-w-7xl mx-auto flex flex-row justify-around items-center py-4 top-0 z-40"
+    >
+      <a href="#"
+        ><img
+          src="./images/logo.svg"
+          alt="Logo"
+          class="w-16 hover:scale-102 active:scale-90"
+      /></a>
       <nav>
-        <ul class="flex gap-8 text-xs font-bold tracking-widest ">
-          <li><a class="uppercase hover:text-amarillo-destacado hover:bg-azul-oscuro bg-verde-neon text-azul-oscuro p-1 " href="#">About me</a></li>
-          <li><a class="uppercase hover:text-amarillo-destacado " href="./pages/landing-page.html">Skills</a></li>
-          <li><a class="uppercase hover:text-amarillo-destacado " href="./projects.html">Projects</a></li>
+        <ul class="flex gap-8 text-xs font-bold tracking-widest">
+          <li>
+            <a
+              class="uppercase hover:text-amarillo-destacado hover:bg-azul-oscuro bg-verde-neon text-azul-oscuro p-1"
+              href="#"
+              >About me</a
+            >
+          </li>
+          <li>
+            <a
+              class="uppercase hover:text-amarillo-destacado"
+              href="./pages/landing-page.html"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              class="uppercase hover:text-amarillo-destacado"
+              href="./projects.html"
+              >Projects</a
+            >
+          </li>
         </ul>
       </nav>
-      <button type="button" class="uppercase border rounded-2xl p-1 hover:scale-102 active:scale-90 font-bold text-xs cursor-pointer">
+      <button
+        type="button"
+        class="uppercase border rounded-2xl p-1 hover:scale-102 active:scale-90 font-bold text-xs cursor-pointer"
+      >
         Contact
         <span class="bg-amarillo-destacado rounded-full text-black px-1"
           >&#10138;</span
@@ -28,11 +60,11 @@
       </button>
     </header>
     <!-- Seccion para el hero y portada -->
-    
-    <main>
+
+    <main class="">
       <section
         id="hero"
-        class="bg-grad-main flex flex-col items-center justify-center text-center w-auto relative overflow-hidden" 
+        class="bg-grad-main flex flex-col items-center justify-center text-center w-auto relative overflow-hidden"
       >
         <h1 class="text-4xl md:text-6xl font-bold">
           I'm <span class="text-amarillo-destacado">Rafael Lopez</span>
@@ -41,14 +73,12 @@
           Frontend Developer
         </h2>
         <div class="relative w-full flex justify-center mt-8 px-4">
-         
-            <img
-              id="hero-img"
-              src="/images/me-4-bg.png"
-              alt="My picture-Hero img"
-              class="drop-shadow-[0_-50px_40px_rgba(227,255,106,0.5)] object-contain w-70 mx-auto transition-opacity duration-1000"
-            />
-        
+          <img
+            id="hero-img"
+            src="/images/me-4-bg.png"
+            alt="My picture-Hero img"
+            class="drop-shadow-[0_-50px_40px_rgba(227,255,106,0.5)] object-contain w-70 mx-auto transition-opacity duration-1000"
+          />
         </div>
         <button
           type="button"
@@ -56,30 +86,106 @@
         >
           My Projects
         </button>
-        <section class="flex flex-col justify-center items-center h-auto w-40 border-2 absolute text-xs left-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1">
+        <section
+          class="flex flex-col justify-center items-center h-auto w-40 border-2 absolute text-xs left-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 -rotate-5"
+        >
           <h2>Client Review From Australia</h2>
-          <q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, fugiat nisi libero corrupti.</q>
+          <q
+            >Rafael helped me optimize my existing business page. Visits
+            increased.</q
+          >
         </section>
-        <section>Expertise Graph</section>
+        <section
+          class="flex flex-col justify-center items-center h-auto w-40 border-2 absolute text-xs right-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 rotate-5"
+        >
+          <h2>MY EXPERTISE</h2>
+          <table class="w-full text-left border-spacing-y-4">
+            <tr class="text-[10px] text-slate-400 font-bold">
+              <td class="w-16">HTML</td>
+              <td>
+                <div class="h-1 bg-slate-200 rounded-full">
+                  <div
+                    class="h-full bg-indigo-500 rounded-full"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </td>
+              <td class="w-10 text-right text-white">90%</td>
+            </tr>
+            <tr class="text-[10px] text-slate-400 font-bold">
+              <td class="w-16">CSS</td>
+              <td>
+                <div class="h-1 bg-slate-200 rounded-full">
+                  <div
+                    class="h-full bg-indigo-500 rounded-full"
+                    style="width: 80%"
+                  ></div>
+                </div>
+              </td>
+              <td class="w-10 text-right text-white">80%</td>
+            </tr>
+            <tr class="text-[10px] text-slate-400 font-bold">
+              <td class="w-16">Javascript</td>
+              <td>
+                <div class="h-1 bg-slate-200 rounded-full">
+                  <div
+                    class="h-full bg-indigo-500 rounded-full"
+                    style="width: 50%"
+                  ></div>
+                </div>
+              </td>
+              <td class="w-10 text-right text-white">50%</td>
+            </tr>
+          </table>
+        </section>
       </section>
+      <div class="flex flex-col w-full relative">
+        <section
+          class="w-6/10 self-center overflow-hidden justify-center items-center flex flex-col text-center"
+          id="about"
+        >
+        <img class="drop-shadow-[0_-10px_10px_rgba(227,255,106,0.5)] w-15/100 absolute left-2 -rotate-6" src="/images/me-3.jpg" alt="my-foto-1">
+        <img class="drop-shadow-[0_-10px_10px_rgba(227,255,106,0.5)] w-15/100 absolute right-2 rotate-6 bottom-35" src="/images/me-2.jpg" alt="my-foto-1">
+        <img class="hidden drop-shadow-[0_-10px_10px_rgba(227,255,106,0.5)] w-10/100 absolute left-2 -rotate-6" src="/images/me-5.jpg" alt="my-foto-1">
+          <h2 class="uppercase">
+            <em class="text-amarillo-destacado not-italic">Who Am I?</em>
+          </h2>
+          <p class="">
+            I'm a passionate Frontend Developer, I started coding when I was 16
+            but I had never had the chance to work in this field.
+          </p>
+          <p>
+            Programming to me is like a sneak peek of creation. God is the Great
+            Programmer and his creation is the UI for his children.
+          </p>
 
-      
-      
+          <button type="button" class="cursor-pointer  bg-amarillo-destacado text-black px-8 py-3 rounded-full font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30">Show My Projects</button>
+        </section>
 
-      <section id="about">
-        <h2 class="uppercase">Who Am I?</h2>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
+        <section id="skills">
+          <h2 class="uppercase text-amarillo-destacado ">My Skills</h2>
+          <div class="w-full grid grid-cols-6 grid-rows-2">
+            <img class="col-[1/2] row-[1/2]" src="/icons/html-5.svg" alt="HTML 5">
+            <img class="col-[2/3] row-[1/2]" src="/icons/css.svg" alt="CSS">
+            <img class="col-[3/4] row-[1/2]" src="/icons/js.svg" alt="Javascript">
+            <img class="col-[4/5] row-[1/2]" src="/icons/sql-database.svg" alt="SQL">
+            <img class="col-[1/2] row-[2/3]" src="/icons/python.svg" alt="Python">
+            <img class="col-[2/3] row-[2/3]" src="/icons/csharp.svg" alt="C#">
+            <img class="col-[3/4] row-[2/3]" src="/icons/looker.svg" alt="Looker">
+            <img class="col-[4/5] row-[2/3]" src="/icons/linux.svg" alt="CSS">
+            <div class="col-[5/7] row-[1/3]">
+              <p class="text-2xl">4</p>
+              <p>Years <br>Experience <br>Working</p>
+              <button type="">download my cv</button>
+            </div>
 
-        <button type="button" class="uppercase">Show My Projects</button>
-      </section>
-      <section id="skills">
-        <h2 class="uppercase">My Skills</h2>
-        <div class="skills-grid"></div>
 
-        <div>contenedor Additional Skills</div>
-      </section>
+
+          </div>
+
+          <div>contenedor Additional Skills</div>
+        </section>
+      </div>
 
       <section id="projects" class="uppercase">
         The works Closest to My Heart
