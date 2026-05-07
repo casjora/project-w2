@@ -10,17 +10,17 @@
   </head>
 
   <body class="bg-fondo-oscuro text-texto-principal">
-    <a href="#" class="text-black bg-amber-100 fixed bottom-6 right-6 w-6 h-6 rounded-full  flex items-center justify-center text-2xl z-50" >&UpArrow;</a>
+    <a href="#" class="text-black bg-amber-100 fixed bottom-6 right-6 w-6 h-6 rounded-full  flex items-center justify-center text-2xl z-50 hover:scale-102 active:scale-90" >&UpArrow;</a>
     <header class="w-full max-w-7xl mx-auto flex flex-row justify-between items-center px-6 py-4 top-0 z-40">
-      <a href="#"><img src="./images/logo.svg" alt="Logo" class="w-16" /></a>
+      <a href="#"><img src="./images/logo.svg" alt="Logo" class="w-16 hover:scale-102 active:scale-90" /></a>
       <nav>
-        <ul class="flex gap-8 text-xs font-bold tracking-widest">
-          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="#">About me</a></li>
-          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="./skills.html">Skills</a></li>
-          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="./projects.html">Projects</a></li>
+        <ul class="flex gap-8 text-xs font-bold tracking-widest ">
+          <li><a class="uppercase hover:text-amarillo-destacado hover:bg-azul-oscuro bg-verde-neon text-azul-oscuro p-1 " href="#">About me</a></li>
+          <li><a class="uppercase hover:text-amarillo-destacado " href="./skills.html">Skills</a></li>
+          <li><a class="uppercase hover:text-amarillo-destacado " href="./projects.html">Projects</a></li>
         </ul>
       </nav>
-      <button type="button" class="uppercase">
+      <button type="button" class="uppercase border rounded-2xl p-1 hover:scale-102 active:scale-90 font-bold text-xs cursor-pointer">
         Contact
         <span class="bg-amarillo-destacado rounded-full text-black px-1"
           >&#10138;</span
@@ -32,7 +32,7 @@
     <main>
       <section
         id="hero"
-        class="bg-grad-main flex flex-col items-center justify-center text-center w-auto h-auto overflow-hidden" 
+        class="bg-grad-main flex flex-col items-center justify-center text-center w-auto overflow-hidden" 
       >
         <h1 class="text-4xl md:text-6xl font-bold">
           I'm <span class="text-amarillo-destacado">Rafael Lopez</span>
@@ -46,13 +46,13 @@
               id="hero-img"
               src="/images/me-4-bg.png"
               alt="My picture-Hero img"
-              class="drop-shadow-[0_-50px_40px_rgba(227,255,106,0.5)] object-contain w-80 mx-auto transition-opacity duration-1000"
+              class="drop-shadow-[0_-50px_40px_rgba(227,255,106,0.5)] object-contain w-70 mx-auto transition-opacity duration-1000"
             />
         
         </div>
         <button
           type="button"
-          class="absolute -bottom-10 bg-amarillo-destacado text-black px-8 py-3 rounded-full font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30"
+          class="cursor-pointer absolute bottom-10 bg-amarillo-destacado text-black px-8 py-3 rounded-full font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30"
         >
           My Projects
         </button>
