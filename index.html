@@ -3,35 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mini-proyecto-w2</title>
+    <title>Rafael Lopez - Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="icon" type="image/x-icon" href="./images/canvaLogoAcrobat.svg" />
+    <link rel="icon" type="image/x-icon" href="/images/canvaLogoAcrobat.svg" />
     <script type="module" src="/scripts.js" defer></script>
   </head>
 
   <body class="bg-fondo-oscuro text-texto-principal">
-    <header class="flex flex-row justify-around items-center">
-      <img src="./images/logo.svg" alt="Logo" class="w-18.75" />
+    <a href="#" class="text-black bg-amber-100 fixed bottom-6 right-6 w-6 h-6 rounded-full  flex items-center justify-center text-2xl z-50" >&UpArrow;</a>
+    <header class="w-full max-w-7xl mx-auto flex flex-row justify-between items-center px-6 py-4 top-0 z-40">
+      <a href="#"><img src="./images/logo.svg" alt="Logo" class="w-16" /></a>
       <nav>
-        <ul class="flex gap-8">
-          <li><a class="uppercase" href="./index.html">About me</a></li>
-          <li><a class="uppercase" href="./skills.html">Skills</a></li>
-          <li><a class="uppercase" href="./projects.html">Projects</a></li>
+        <ul class="flex gap-8 text-xs font-bold tracking-widest">
+          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="#">About me</a></li>
+          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="./skills.html">Skills</a></li>
+          <li><a class="uppercase hover:text-amarillo-destacado transition-colors" href="./projects.html">Projects</a></li>
         </ul>
       </nav>
       <button type="button" class="uppercase">
         Contact
-        <span class="bg-amarillo-destacado rounded-full text-black"
+        <span class="bg-amarillo-destacado rounded-full text-black px-1"
           >&#10138;</span
         >
       </button>
     </header>
     <!-- Seccion para el hero y portada -->
-    <div>go to top fixed arrow</div>
+    
     <main>
       <section
         id="hero"
-        class="bg-grad-sec flex flex-col items-center justify-center text-center pt-20"
+        class="bg-grad-sec flex flex-col items-center justify-center text-center pt-20 h-[50rem] overflow-auto" 
       >
         <h1 class="text-4xl md:text-6xl font-bold">
           I'm <span class="text-amarillo-destacado">Rafael Lopez</span>
@@ -40,12 +41,12 @@
           Frontend Developer
         </h2>
         <div class="relative w-full flex justify-center mt-8 px-4">
-          <div class="">
+          <div class="w-[22rem]">
             <img
               id="hero-img"
               src="/images/me-4-bg.png"
               alt="My picture-Hero img"
-              class="object-contain mx-auto transition-opacity duration-1000"
+              class="object-contain w-[22rem] mx-auto transition-opacity duration-1000"
             />
           </div>
         </div>
