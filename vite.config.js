@@ -12,6 +12,7 @@ export default defineConfig({
         main: resolve(__dirname, './index.html'),
         contact:resolve(__dirname,'./projects.html'),
         skills:resolve(__dirname,'./skills.html'),
+        
       },
     },
   }, // El paréntesis cerraba antes de tiempo aquí
