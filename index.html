@@ -141,7 +141,7 @@
       </section>
       <div class="flex flex-col w-full relative">
         <section
-          class="w-6/10 self-center overflow-hidden justify-center items-center flex flex-col text-center"
+          class="h-100 w-6/10 self-center overflow-hidden justify-center items-center flex flex-col text-center"
           id="about"
         >
           <img
@@ -159,7 +159,7 @@
             src="/images/me-5.jpg"
             alt="my-foto-1"
           />
-          <h2 class="uppercase">
+          <h2 class="uppercase text-3xl p-2">
             <em class="text-amarillo-destacado not-italic">Who Am I?</em>
           </h2>
           <p class="">
@@ -179,8 +179,10 @@
           </button>
         </section>
 
-        <section id="skills">
-          <h2 class="uppercase text-amarillo-destacado">My Skills</h2>
+        <section class="text-center" id="skills">
+          <h2 class="uppercase text-3xl p-2 text-amarillo-destacado">
+            My Skills
+          </h2>
           <div
             class="w-full grid grid-cols-[repeat(4,minmax(0,1fr))_1.5fr] grid-rows-2 border border-slate-700 bg-black items-center"
           >
@@ -241,19 +243,32 @@
             </div>
           </div>
 
-          <div>contenedor Additional Skills</div>
+          <section class="bg-azul-oscuro mt-20 p-2 w-full overflow-hidden">
+            <h3>ADDITIONAL SKILLS</h3>
+            <div class="p-2 gap-2 flex justify-around" id="other-Skills">
+              <img class="w-20" src="/icons/sheets.svg" alt="" />
+              <img class="w-20" src="/icons/tableau.svg" alt="" />
+              <img class="w-20" src="/icons/microsoft-office.svg" alt="" />
+            </div>
+          </section>
         </section>
       </div>
 
-      <section id="projects" class="uppercase">
-        The works Closest to My Heart
+      <section id="projects" class="relative uppercase flex h-100 justify-center items-center">
+        <p class="text-2xl">The works Closest to My Heart</p>
+        <img class="w-20" src="/icons/sheets.svg" alt="" />
+        <img class="w-20" src="/icons/tableau.svg" alt="" />
+        <img class="w-20" src="/icons/microsoft-office.svg" alt="" />
+        <button class="bottom-20 left-5 px-9 absolute cursor-pointer bg-amarillo-destacado text-black px-2 py-2 rounded-2xl font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30" type="button">Show my projects</button>
+
         <!-- tarjetas de proyectos -->
       </section>
-      <button class="uppercase" type="button">Show my projects</button>
 
       <section id="contact">
         <h2 class="uppercase">Let's Have a Chat</h2>
-        <form action=""></form>
+        <form action="">
+          
+        </form>
       </section>
     </main>
     <footer>&copy;2026 - Rafael Lopez - Hecho con Tailwind v4</footer>
