@@ -2,7 +2,7 @@
 
 @theme{
     /* Colores del proyecto */
- --color-fondo-oscuro: #0d1117;
+ --color-fondo-oscuro: #0a0f22;
  --color-texto-principal: #ffffff;
  --color-amarillo-destacado: #e3ff6a;
  --color-verde-neon: #a4ff7a;
@@ -10,7 +10,8 @@
  --color-gris-suave: #8892b0;
 
  /* Imagenes de fondo con gradiente */
- --background-image-grad-main: linear-gradient(#0d1117,#1e293b);
+ --background-image-grad-main: linear-gradient(0deg, #25458e  0%,#0a0f22 100%);
+ /* azul oscuro #0a0f22, azul claro #25458e, amarillo gradiente #6e7d66, para secciones #1d2236, tarjetitas #1d2236 [#1e2337] */
  --background-image-grad-sec: radial-gradient(
     circle at 50% 45%, 
     rgba(227, 255, 106, 0.5) 0%, 
