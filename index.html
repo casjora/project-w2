@@ -179,57 +179,57 @@
           </button>
         </section>
 
-        <section class="text-center" id="skills">
-          <h2 class="uppercase text-3xl p-2 text-amarillo-destacado">
+        <section class="items-center justify-center text-center flex flex-col" id="skills">
+          <h2 class="mb-8 uppercase text-3xl p-2 text-amarillo-destacado">
             My Skills
           </h2>
           <div
-            class="w-full grid grid-cols-[repeat(4,minmax(0,1fr))_2fr] grid-rows-2 border border-slate-700 bg-[#1d2236] items-center"
+            class=" grid grid-cols-[repeat(4,minmax(0,1fr))_2fr] grid-rows-2 items-center gap-0.5 w-18/20"
           >
             <img
-              class="col-[1/2] row-[1/2] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[1/2] row-[1/2] w-full h-24 p-2 object-contain"
               src="/icons/html-5.svg"
               alt="HTML 5"
             />
             <img
-              class="col-[2/3] row-[1/2] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[2/3] row-[1/2] w-full h-24 p-2 object-contain"
               src="/icons/css.svg"
               alt="CSS"
             />
             <img
-              class="col-[3/4] row-[1/2] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[3/4] row-[1/2] w-full h-24 p-2 object-contain"
               src="/icons/js.svg"
               alt="Javascript"
             />
             <img
-              class="col-[4/5] row-[1/2] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[4/5] row-[1/2] w-full h-24 p-2 object-contain"
               src="/icons/sql-database.svg"
               alt="SQL"
             />
 
             <img
-              class="col-[1/2] row-[2/3] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[1/2] row-[2/3] w-full h-24 p-2 object-contain"
               src="/icons/python.svg"
               alt="Python"
             />
             <img
-              class="col-[2/3] row-[2/3] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[2/3] row-[2/3] w-full h-24 p-2 object-contain"
               src="/icons/csharp.svg"
               alt="C#"
             />
             <img
-              class="col-[3/4] row-[2/3] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[3/4] row-[2/3] w-full h-24 p-2 object-contain"
               src="/icons/looker.svg"
               alt="Looker"
             />
             <img
-              class="col-[4/5] row-[2/3] w-full h-24 p-2 object-contain"
+              class=" bg-[#1d2236] rounded col-[4/5] row-[2/3] w-full h-24 p-2 object-contain"
               src="/icons/linux.svg"
               alt="Linux"
             />
 
             <div
-              class="border-l border-slate-700 col-[5/6] row-[1/3] py-8 text-center flex flex-col justify-center text-white"
+              class=" bg-[#1d2236] rounded col-[5/6] row-[1/3] py-8 text-center flex flex-col justify-center text-white h-1/1 ml-2"
             >
               <p class="text-4xl font-bold">4</p>
               <p class="text-sm leading-tight uppercase tracking-tighter">
@@ -259,17 +259,26 @@
         <img class="w-20" src="/icons/sheets.svg" alt="" />
         <img class="w-20" src="/icons/tableau.svg" alt="" />
         <img class="w-20" src="/icons/microsoft-office.svg" alt="" />
-        <button class="bottom-20 left-5 px-9 absolute cursor-pointer bg-amarillo-destacado text-black px-2 py-2 rounded-2xl font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30" type="button">Show my projects</button>
+        <button class="bottom-20 left-5 px-9 absolute cursor-pointer bg-amarillo-destacado text-black py-2 rounded-2xl font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30" type="button">Show my projects</button>
 
         <!-- tarjetas de proyectos -->
       </section>
+      <div class="w-1/1 flex justify-center items-center">
+        <section class="rounded-xl gap-10 pt-10 text-sm flex flex-col bg-texto-principal text-center w-18/20" id="contact">
+          <h2 class="uppercase text-3xl text-slate-950 font-bold">Let's Have a Chat</h2>
+          <form class="flex flex-col text-slate-800 font-bold gap-3 justify-center items-center pb-10 " >
+            <input class="p-6 w-4/5 h-10 rounded-xl bg-[#e3e3e3]" placeholder="YOUR NAME" type="text" name="full-name" id="full-name">
+            <input type="email" class="p-6 h-10 w-4/5 rounded-xl bg-[#e3e3e3]" placeholder="EMAIL ADDRESS" name="email" id="email">
+            <textarea placeholder="CHAT HERE" class="p-3 pl-6 h-20 w-4/5 rounded-xl bg-[#e3e3e3]" name="message" id="message" rows="3" cols="23"></textarea>
+            <button class="mt-3 w-4/5 px-9 cursor-pointer bg-amarillo-destacado text-black py-2 rounded-2xl font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30" type="button">
+              SUBMIT HERE
 
-      <section id="contact">
-        <h2 class="uppercase">Let's Have a Chat</h2>
-        <form action="">
-          
-        </form>
-      </section>
+            </button>
+
+            
+          </form>
+        </section>
+      </div>
     </main>
     <footer>&copy;2026 - Rafael Lopez - Hecho con Tailwind v4</footer>
   </body>
