@@ -61,7 +61,7 @@
     </header>
     <!-- Seccion para el hero y portada -->
 
-    <main class="">
+    <main class="flex flex-col justify-center items-center">
       <section
         id="hero"
         class="bg-grad-main flex flex-col items-center justify-center text-center w-auto relative overflow-hidden"
@@ -87,16 +87,16 @@
           My Projects
         </button>
         <section
-          class="flex flex-col justify-center items-center h-auto w-40 border-2 absolute text-xs left-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 -rotate-5"
+          class="flex flex-col justify-center items-center h-auto w-40  absolute text-xs left-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 -rotate-5"
         >
-          <h2>Client Review From Australia</h2>
-          <q
+          <h2 class="font-bold">Client Review From Australia</h2>
+          <q class="text-gris-suave"
             >Rafael helped me optimize my existing business page. Visits
             increased.</q
           >
         </section>
         <section
-          class="flex flex-col justify-center items-center h-auto w-40 border-2 absolute text-xs right-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 rotate-5"
+          class="flex flex-col justify-center items-center h-auto w-40 absolute text-xs right-1.5 top-25 rounded-2xl bg-azul-oscuro gap-1.5 p-1 rotate-5"
         >
           <h2>MY EXPERTISE</h2>
           <table class="w-full text-left border-spacing-y-4">
@@ -139,7 +139,7 @@
           </table>
         </section>
       </section>
-      <div class="flex flex-col w-full relative">
+      <div class="flex flex-col w-full relative mt-20 gap-9">
         <section
           class="h-100 w-6/10 self-center overflow-hidden justify-center items-center flex flex-col text-center"
           id="about"
@@ -155,18 +155,18 @@
             alt="my-foto-1"
           />
           <img
-            class="hidden drop-shadow-[0_-10px_10px_rgba(227,255,106,0.5)] w-10/100 absolute left-2 -rotate-6"
+            class="drop-shadow-[0_-10px_10px_rgba(227,255,106,0.5)] w-10/100 absolute left-8 top-0 -rotate-6"
             src="/images/me-5.jpg"
             alt="my-foto-1"
           />
-          <h2 class="uppercase text-3xl p-2">
+          <h2 class="uppercase text-4xl p-2">
             <em class="text-amarillo-destacado not-italic">Who Am I?</em>
           </h2>
-          <p class="">
+          <p class="mb-5">
             I'm a passionate Frontend Developer, I started coding when I was 16
             but I had never had the chance to work in this field.
           </p>
-          <p>
+          <p class="mb-10">
             Programming to me is like a sneak peek of creation. God is the Great
             Programmer and his creation is the UI for his children.
           </p>
@@ -243,22 +243,24 @@
             </div>
           </div>
 
-          <section class="bg-[#1d2236] mt-20 p-2 w-full overflow-hidden">
+          <section class="bg-[#1d2236] mt-20 p-2 gap-0.5 w-18/20 overflow-hidden">
             <h3>ADDITIONAL SKILLS</h3>
             <div class="p-2 gap-2 flex justify-around" id="other-Skills">
-              <img class="w-20" src="/icons/sheets.svg" alt="" />
-              <img class="w-20" src="/icons/tableau.svg" alt="" />
-              <img class="w-20" src="/icons/microsoft-office.svg" alt="" />
+              <img class="w-10" src="/icons/sheets.svg" alt="" />
+              <img class="w-10" src="/icons/tableau.svg" alt="" />
+              <img class="w-10" src="/icons/microsoft-office.svg" alt="" />
+              <img class="w-10" src="/icons/ms-excel.svg" alt="" />
+              <img class="w-10" src="./public/icons/microsoft-word.svg" alt="" />
             </div>
           </section>
         </section>
       </div>
 
-      <section id="projects" class="relative uppercase flex h-100 justify-center items-center">
-        <p class="text-2xl">The works Closest to My Heart</p>
-        <img class="w-20" src="/icons/sheets.svg" alt="" />
-        <img class="w-20" src="/icons/tableau.svg" alt="" />
-        <img class="w-20" src="/icons/microsoft-office.svg" alt="" />
+      <section id="projects" class="relative uppercase flex h-100 justify-center items-center w-18/20 gap-3">
+        <p class="text-2xl h-full w-1/2 flex items-center">The works Closest to My Heart</p>
+        <img class="w-30/100 " src="/images/honduras-chamber-2.png" alt="" />
+        <img class="w-1/10 " src="/images/info-card-2.png" alt="" />
+        <img class="w-1/10 " src="/images/water-draft-2.png" alt="" />
         <button class="bottom-20 left-5 px-9 absolute cursor-pointer bg-amarillo-destacado text-black py-2 rounded-2xl font-bold uppercase tracking-wider transition-all hover:scale-105 hover:shadow-lg active:scale-85 shadow-amarillo-destacado/30" type="button">Show my projects</button>
 
         <!-- tarjetas de proyectos -->
