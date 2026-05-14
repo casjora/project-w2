@@ -1,4 +1,4 @@
-ejercicio_5();
+ejercicio_7();
 
 /* 
 Ejercicio 1 – Calculadora de Promedio y Rendimiento
@@ -276,4 +276,57 @@ function ejercicio_5(){
     }
 
     alert (`Ud tiene ${edad} años de edad por lo que se considera un ${mensaje}`)
+}
+
+
+/* Practica 2 sistema de descuento tienda */
+
+function ejercicio_6 () {
+    let compra = parseFloat(prompt("Ingresa el total de la compra"))
+    let membresia = prompt("Tienes membresia premium? (si/no)")
+//premium
+    let desc = parseInt()
+
+
+    let total
+    
+    if (compra >100 && compra <=300) {
+        if (membresia ==="si" ) {
+            desc = compra *0.2
+            
+        }else {
+            desc = compra * 0.1
+        }
+    }else if(compra >300)
+    {
+        if(membresia==="si"){
+            desc = compra *0.3
+
+        }
+    } 
+     total= compra-desc
+    alert (`Subtotal: ${compra}
+        Descuento Aplicado: ${desc}
+        Total: ${total}`)
+
+}
+
+function ejercicio_7 () {
+    let nota = parseInt(prompt("Ingrese la calificacion: "))
+    
+    if (nota>=11) {
+        let asistencia = parseInt(prompt("Cual es el porcentaje de asistencia?"))
+        if (asistencia >=80) {
+            alert ("Estudiante aprobado")
+            
+        }else{
+            alert ("Aprobo examen pero desaprobó por faltas")
+        }
+
+        
+    } else {
+        alert ("Desaprobado")
+        
+    }
+
 }
