@@ -1,4 +1,4 @@
-let saldo = parseFloat(250.5)
+let saldo = parseFloat()
 let opcion;
 
 do {alert (`
