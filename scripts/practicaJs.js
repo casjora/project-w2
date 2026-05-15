@@ -163,3 +163,30 @@ else{
     alert ("Ingresa valores validos...")
 
 }
+
+/*
+Sistema de envío
+Costo de envío:
+Pedir precio de la compra
+Gratis si compra > 150
+15 dolares si compra <= 150
+Pero:
+si es cliente VIP, siempre es gratis.
+*/
+ 
+let compra3 = parseFloat(prompt("Total de compra:"))
+let envio = parseFloat()
+let tipo = prompt ("Eres VIP")
+
+
+
+if (tipo ==="si" || compra3 >150){
+    envio = 0
+}
+
+
+else if (compra3<=150){
+    envio = 15
+}
+
+alert (`El costo de envio es: ${envio}`)
