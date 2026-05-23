@@ -81,49 +81,50 @@ function contarVocales(texto) {
   return counter;
 }
 
-
 let vocales = [];
 
 for (let i = 0; i < 3; i++) {
-    let palabra = prompt(`Ingrese la palabra ${i+1}\n`)
-    
-    vocales.push(`\nLa palabra ${palabra} tiene ${contarVocales(palabra)} vocales`)
+  let palabra = prompt(`Ingrese la palabra ${i + 1}\n`);
+
+  vocales.push(
+    `\nLa palabra ${palabra} tiene ${contarVocales(palabra)} vocales`,
+  );
 }
-console.log(vocales.join("\n"))
+console.log(vocales.join("\n"));
 
 //Ejercicio 4
 
-function clasificarParesImpares(num1,num2){
-    for (let i = inicio;i<=fin ;i++){
-        if (i%2===0){
-            console.log(`${i} es par`)
-        }else{
-            console.log(`${i} es impar`)
-        }
+function clasificarParesImpares(num1, num2) {
+  for (let i = inicio; i <= fin; i++) {
+    if (i % 2 === 0) {
+      console.log(`${i} es par`);
+    } else {
+      console.log(`${i} es impar`);
     }
+  }
 }
 
-let inicio = Number(prompt("Ingresa el numero de inicio \n"))
-let final = Number(prompt("Ingresa el numero final del rango \n"))
+let inicio = Number(prompt("Ingresa el numero de inicio \n"));
+let final = Number(prompt("Ingresa el numero final del rango \n"));
 
-clasificarParesImpares(inicio,final)
+clasificarParesImpares(inicio, final);
 
 //Ejercicio 5
 
-function mayorYSuma (listaDeNumeros){
-    let mayor = listaDeNumeros[0];
-    let suma = 0;
+function mayorYSuma(listaDeNumeros) {
+  let mayor = listaDeNumeros[0];
+  let suma = 0;
 
-    for (let numero of listaDeNumeros){
-        suma+=numero
+  for (let numero of listaDeNumeros) {
+    suma += numero;
 
-        if(numero>mayor){
-            mayor=numero;
-        }
+    if (numero > mayor) {
+      mayor = numero;
     }
+  }
 
-    console.log(`Los resultados son:
+  console.log(`Los resultados son:
 Numero mayor entre ${listaDeNumeros} es ${mayor}
-La suma total es: ${suma}`)
-
+La suma total es: ${suma}`);
 }
+
