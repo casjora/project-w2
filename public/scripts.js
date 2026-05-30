@@ -1,4 +1,3 @@
-const imagen = document.getElementById('hero-img');
 
 const images = [
     '/images/me-1-bg.png',
@@ -12,6 +11,10 @@ let index=0;
 
 
 function cambiarImagen(){
+    const imagen = document.getElementById('hero-img');
+
+    if(!imagen) return;
+
     imagen.style.opacity='0';
     setTimeout(()=> {
         index = (index + 1) % images.length;
@@ -23,4 +26,5 @@ function cambiarImagen(){
 
 }
 
-setInterval(cambiarImagen,5000);
+
+export {cambiarImagen}
